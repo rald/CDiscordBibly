@@ -1,0 +1,20 @@
+18:43:41 [94mTRACE[0m [90msrc/discord-rest_ratelimit.c:244:[0m [DISCORD_RATELIMIT] [null] Couldn't match known buckets to ':1:users:@me'
+18:43:41 [36mDEBUG[0m [90msrc/discord-rest_ratelimit.c:292:[0m [DISCORD_RATELIMIT] [miss] Match ':1:users:@me' to bucket
+18:43:41 [36mDEBUG[0m [90msrc/discord-rest_ratelimit.c:349:[0m [DISCORD_RATELIMIT] [miss] Remaining = 1 | Reset = 0
+18:43:41 [94mTRACE[0m [90msrc/discord-rest_ratelimit.c:244:[0m [DISCORD_RATELIMIT] [null] Couldn't match known buckets to ':1:gateway:bot'
+18:43:42 [36mDEBUG[0m [90msrc/discord-rest_ratelimit.c:292:[0m [DISCORD_RATELIMIT] [41f9] Match ':1:gateway:bot' to bucket
+18:43:42 [36mDEBUG[0m [90msrc/discord-rest_ratelimit.c:349:[0m [DISCORD_RATELIMIT] [41f9] Remaining = 1 | Reset = 1656845027079
+18:43:42 [32mINFO [0m [90msrc/discord-gateway.c:313:[0m [DISCORD_GATEWAY] Connected, WS-Protocols: ''
+18:43:42 [94mTRACE[0m [90msrc/discord-gateway.c:448:[0m [DISCORD_GATEWAY] [93mRCV[0m DISCORD_GATEWAY_HELLO (118 bytes) [@@@_6_@@@]
+18:43:42 [32mINFO [0m [90msrc/discord-gateway_dispatch.c:186:[0m [DISCORD_GATEWAY] [92mSEND[0m IDENTIFY (300 bytes) [@@@_7_@@@]
+18:43:43 [94mTRACE[0m [90msrc/discord-gateway.c:448:[0m [DISCORD_GATEWAY] [93mRCV[0m DISCORD_GATEWAY_DISPATCH -> READY (1083 bytes) [@@@_8_@@@]
+18:43:43 [32mINFO [0m [90msrc/discord-gateway.c:201:[0m [DISCORD_GATEWAY] Succesfully started a Discord session!
+18:43:43 [32mINFO [0m [90msrc/discord-gateway_dispatch.c:287:[0m [DISCORD_GATEWAY] [92mSEND[0m HEARTBEAT (14 bytes) [@@@_9_@@@]
+18:43:43 [94mTRACE[0m [90msrc/discord-gateway.c:448:[0m [DISCORD_GATEWAY] [93mRCV[0m DISCORD_GATEWAY_HEARTBEAT_ACK (36 bytes) [@@@_10_@@@]
+18:43:43 [94mTRACE[0m [90msrc/discord-gateway.c:300:[0m [DISCORD_GATEWAY] PING: 309 ms
+18:44:24 [32mINFO [0m [90msrc/discord-gateway_dispatch.c:287:[0m [DISCORD_GATEWAY] [92mSEND[0m HEARTBEAT (14 bytes) [@@@_11_@@@]
+18:44:24 [94mTRACE[0m [90msrc/discord-gateway.c:448:[0m [DISCORD_GATEWAY] [93mRCV[0m DISCORD_GATEWAY_HEARTBEAT_ACK (36 bytes) [@@@_12_@@@]
+18:44:24 [94mTRACE[0m [90msrc/discord-gateway.c:300:[0m [DISCORD_GATEWAY] PING: 275 ms
+18:45:05 [32mINFO [0m [90msrc/discord-gateway_dispatch.c:287:[0m [DISCORD_GATEWAY] [92mSEND[0m HEARTBEAT (14 bytes) [@@@_13_@@@]
+18:45:06 [94mTRACE[0m [90msrc/discord-gateway.c:448:[0m [DISCORD_GATEWAY] [93mRCV[0m DISCORD_GATEWAY_HEARTBEAT_ACK (36 bytes) [@@@_14_@@@]
+18:45:06 [94mTRACE[0m [90msrc/discord-gateway.c:300:[0m [DISCORD_GATEWAY] PING: 276 ms
